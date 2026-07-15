@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --altura-imagem: auto;
     --alinhamento-texto: center;
@@ -17,19 +23,20 @@ nav a {
 
 h1 {
     color: darkblue;
+    padding-top: 1rem;
 }
 
 main img {
+    margin-left: 15px;
+    margin-right: 15px;
     width: 150px;
     height: var(--altura-imagem);
     border: 1px solid darkblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin-top: -40px;
 
-}
-
-p {
-    padding: 0;
 }
 
 main {
@@ -38,12 +45,10 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
     color: #333;
     text-align: var(--alinhamento-texto);
+    position: relative;
+
 }
 
 aside img {
@@ -51,9 +56,29 @@ aside img {
     height: var(--altura-imagem);
 }
 
+aside h2 {
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: var(--alinhamento-texto);
+
+}
+
+/* Seletores de Classe */
+.caixa {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #ddd;
+
+}
+
+.indentacao {
+    padding-left: 2rem;
 
 }
