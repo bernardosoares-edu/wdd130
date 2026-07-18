@@ -78,6 +78,8 @@ article {
 .hero article img {
     float: right;
     width: 150px;
+    border: 1px solid var(--cor-destaque1);
+    box-shadow: 0 0 15px var(--cor-destaque1);
     margin-bottom: 5px;
     margin-top: 10px;
     margin-left: 5px;
