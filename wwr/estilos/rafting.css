@@ -1,8 +1,8 @@
 :root {
     --cor-primaria: #055805;
-    --cor-secundaria: #ee7410;
+    --cor-secundaria: #5af014;
     --cor-destaque1: #264653;
-    --cor-destaque2: #e9c46a;
+    --cor-destaque2: rgba(255, 255, 255, 0.8);
     --fonte-titulo: "Times New Roman", "Georgia" serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -62,7 +62,7 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--cor-destaque1);
-    color: #5af014;
+    color: var(--cor-secundaria);
 }
 
 .hero article {
@@ -70,7 +70,7 @@ article {
     bottom: 10px;
     left: 30px;
     right: 30px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--cor-destaque2);
     padding: 10px;
 
 }
