@@ -36,7 +36,7 @@ nav,
 p,
 section,
 article {
-    margin: 16px;
+    margin: 5px;
     padding: 8px;
 }
 
@@ -54,7 +54,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -65,10 +65,21 @@ h1 {
     color: #5af014;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    right: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+
+}
+
 .hero article img {
     float: right;
-    width: 200px;
-    margin-bottom: 20px;
-    margin-top: 15px;
+    width: 150px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
 
 }
