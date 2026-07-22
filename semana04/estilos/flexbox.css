@@ -7,6 +7,11 @@ body {
     border: 3px dashed darkcyan;
     background-color: lightyellow;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    place-items: flex-start;
+
     flex-wrap: wrap;
 }
 
