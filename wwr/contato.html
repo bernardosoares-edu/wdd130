@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco | Magú Rafting</title>
+    <meta name="description"
+      content="Fale com a Magú Rafting! Agende sua aventura de rafting, tire dúvidas sobre pacotes e valores. Atendimento humano de segunda a sábado.">
+    <meta name="author" content="Bernardo Soares da Silva Filho">
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo-rafting.png" alt="Logotipo de Rafting" width="150" height="150">
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="passeios.html">Passeios</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="contato">
+            <h1>Magú Rafting</h1>
+            <p class="info_empresa">
+                83, Rua Monsenhor Roberto Lopes<br>
+                Parnaíba, Piauí<br>
+                +55 12 9880-69218<br>
+                info@correiras.com
+            </p>
+            <div class="contato-conteudo">
+                <div class="map">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.678610816814!2d-41.78911080647024!3d-2.9085530574598506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ec2fdb1d0b090d%3A0x27b84c8be7354267!2sR.%20Monsenhor%20Roberto%20Lopes%2C%2083%20-%20S%C3%A3o%20Jos%C3%A9%2C%20Parna%C3%ADba%20-%20PI%2C%2064218-160!5e0!3m2!1spt-BR!2sbr!4v1785450315159!5m2!1spt-BR!2sbr"
+                      width="350" height="350" allowfullscreen="" loading="lazy"
+                      referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+                </div>
+
+
+                <form>
+
+                    <label for="nome-completo">Nome</label>
+                    <input type="text" id="nome-completo" name="nome-completo"
+                      placeholder="Digite aqui" required>
+
+
+                    <label for="emaildousuario">e-mail</label>
+                    <input type="email" id="emaildousuario" name="emaildousuario"
+                      placeholder="Digite aqui" required>
+
+
+                    <fieldset class="proposito">
+                        <div class="titulo">
+                            Propósito da Mensagem
+                        </div>
+
+                        <div class="opcoes">
+                            <label>
+                                <input type="radio" name="proposito" value="1" required>
+                                Dúvida Geral
+                            </label>
+
+                            <label>
+                                <input type="radio" name="proposito" value="2">
+                                Pergunta sobre Reserva
+                            </label>
+
+                            <label>
+                                <input type="radio" name="proposito" value="3">
+                                Sugestão
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <label for="feedback" class="mensagem">Mensagem</label>
+                    <textarea name="feedback" id="feedback" rows="4"
+                      placeholder="Digite aqui"></textarea>
+
+
+                    <div class="newsletter">
+                        <label> <input type="checkbox" id="newsletter" name="newsletter">Quero
+                            receber a
+                            newsletter
+                            mensal</label>
+                    </div>
+
+                    <button type="submit">Entrar em Contato!</button>
+
+
+                </form>
+            </div>
+        </section>
+
+
+        <section class="aventura">
+            <h2>Estamos aqui para servi-lo</h2>
+            <figure>
+                <img src="imagens/ceo.jpg" alt="Foto de Perfil da ceo">
+                <figcaption>ceo</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/Gerente de Vendas.jpg" alt="Foto de Perfil do Gerente de vendas">
+                <figcaption>Gerente de vendas</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/Gerente de RH.jpg" alt="Foto de Perfil do Gerente de RH">
+                <figcaption>Gerente de RH</figcaption>
+            </figure>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>© 2026 Magú Rafting | Desenvolvido por Bernardo Soares</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank">
+                <img src="imagens/facebook.svg" alt="Ícone do Facebook">
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img src="imagens/linkedin.svg" alt="Ícone do linkedin">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="imagens/instagram.svg" alt="Ícone do instagram">
+            </a>
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
