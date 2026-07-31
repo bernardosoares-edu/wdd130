@@ -198,21 +198,21 @@ footer p {
     margin: 0;
 }
 
-.socialmedia {
+.redes-sociais {
     grid-column: 3;
     display: flex;
     gap: 15px;
     justify-self: end;
 }
 
-.socialmedia a {
+.redes-sociais a {
     text-decoration: none;
     border: none;
     background-color: transparent;
     padding: 4px;
 }
 
-.socialmedia img {
+.redes-sociais img {
     display: block;
     width: 24px;
     height: 24px;
