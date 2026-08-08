@@ -437,7 +437,7 @@ form button {
 }
 
 .cta .btn:hover {
-    background-color: #2A9D8F;
+    background-color: #264653;
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
