@@ -411,7 +411,7 @@ form button {
 .cta {
     text-align: center;
     padding: 2rem;
-    background-color: #207069;
+    background-color: #045457;
     color: white;
     border-radius: 12px;
 }
@@ -542,6 +542,6 @@ td {
 }
 
 th {
-    background-color: #207069;
+    background-color: #062d47;
     color: white;
 }
